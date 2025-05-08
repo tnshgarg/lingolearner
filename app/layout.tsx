@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "nextjs",
     "vercel",
     "react",
-    "Abhishek Kumar",
+    "Tanish garg",
     "KMaar",
     "LEAF",
     "KMaar Miscellaneous Studio",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     "css",
   ],
   authors: {
-    name: "Abhishek Kumar",
+    name: "Tanish garg",
     url: "https://kmaar.vercel.app/",
   },
 };

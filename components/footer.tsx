@@ -5,17 +5,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url: "https://github.com/SudoKMaar/leaf",
+    url: "https://github.com/tnshgarg/lingolearner",
   },
   {
     id: 2,
     img: "/linkedin.svg",
-    url: "https://www.linkedin.com/in/AbhishekKMaar/",
+    url: "https://www.linkedin.com/in/tnshgarg/",
   },
   {
     id: 3,
     img: "/instagram.svg",
-    url: "https://www.instagram.com/KMaar44",
+    url: "https://www.instagram.com/thetanishgarg",
   },
 ];
 const Footer = () => {
