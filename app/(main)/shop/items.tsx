@@ -3,7 +3,6 @@ import { useTransition } from "react";
 import Image from "next/image";
 import { toast } from "sonner";
 import { refillHearts } from "@/actions/user-progress";
-import { createStripeUrl } from "@/actions/user-subscription";
 import { Button } from "@/components/ui/button";
 
 type Props = {
@@ -28,10 +27,13 @@ const Items = ({ hearts, points, hasActiveSubscription }: Props) => {
 
   const onUpgrade = () => {
     startTransition(() => {
-      createStripeUrl()
-        .then((response) => {
-          if (response.data) {
-            window.location.href = response.data;
+      fetch("/api/stripe/checkout", { method: "POST" })
+        .then(async (res) => {
+          const data = await res.json();
+          if (data.url) {
+            window.location.href = data.url;
+          } else {
+            toast.error(data.error || "Subscription failed !");
           }
         })
         .catch(() => toast.error("Subscription failed !"));
