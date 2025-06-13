@@ -31,7 +31,7 @@ LEAF is a language learning platform inspired by Duolingo. It allows users to le
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/SudoKMaar/leaf.git
+   git clone https://github.com/tnshgarg/lingolearner.git
    ```
 
 2. Install dependencies:
@@ -53,11 +53,3 @@ LEAF is a language learning platform inspired by Duolingo. It allows users to le
    ```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Contributing
-
-Contributions are welcome! Please follow our [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.

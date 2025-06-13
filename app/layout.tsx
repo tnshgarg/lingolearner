@@ -15,8 +15,8 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_URL}`),
   title: {
-    default: "LEAF by KMaar",
-    template: "%s - LEAF by KMaar",
+    default: "LingoLearner by Tanish",
+    template: "%s - LingoLearner by Tanish garg",
   },
   description:
     "Dive into the world of languages with Leaf. Master new languages, enhance your skills, and unfold your potential. Start your linguistic journey with Leaf today!",
@@ -33,9 +33,7 @@ export const metadata: Metadata = {
     "vercel",
     "react",
     "Tanish garg",
-    "KMaar",
     "LEAF",
-    "KMaar Miscellaneous Studio",
     "duolingo-clone",
     "learn-language",
     "shadcn",
@@ -68,7 +66,7 @@ export const metadata: Metadata = {
   ],
   authors: {
     name: "Tanish garg",
-    url: "https://kmaar.vercel.app/",
+    url: "https://tanishgarg.vercel.app/",
   },
 };
 
