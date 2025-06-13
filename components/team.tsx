@@ -5,35 +5,11 @@ import { Button } from "@/components/ui/moving-borders";
 export const teamDetails = [
   {
     id: 1,
-    title: "Abhishek Kumar",
-    desc: "Assisted in the development of LEAF using Next.js, enhancing interactivity and backend functanility",
+    title: "Tanish garg",
+    desc: "Developed the complete project in next js",
     className: "md:col-span-2",
     thumbnail: "/kmaar.png",
-    alt: "Abhishek KMaar",
-  },
-  {
-    id: 2,
-    title: "Anmol Sahni",
-    desc: "Designed and developed mobile app for Android platforms using React Native.",
-    className: "md:col-span-2",
-    thumbnail: "/anmol.png",
-    alt: "Anmol Sahni",
-  },
-  {
-    id: 3,
-    title: "Kajal Rawat",
-    desc: "Assisted the dev of a mobile app, from initial concept to deployment on app stores",
-    className: "md:col-span-2",
-    thumbnail: "/kajal.png",
-    alt: "Kajal Rawat",
-  },
-  {
-    id: 4,
-    title: "Prince Singh",
-    desc: "Designed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/prince.png",
-    alt: "Prince Singh",
+    alt: "Tanish garg",
   },
 ];
 
